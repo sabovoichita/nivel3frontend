@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="submit.php" method="post">
+      <label for="nombre">Nombre: </label>
+      <input type="text" name="nombre" id="nombre" />
+
+      <label for="contrasena">Contrasena: </label>
+      <input type="password" name="contrasena" id="contrasena" />
+
+      <button type="submit">Enviar</button>
+      <button type="=reset">Limpiar</button>
+
+      <label
+        ><input type="checkbox" name="interes" value="musica" />Música</label
+      >
+      <label
+        ><input type="checkbox" name="interes" value="libros" />Libros</label
+      >
+
+      <label
+        ><input type="radio" name="genero" value="masculino" />Masculino</label
+      >
+      <label
+        ><input type="radio" name="genero" value="feminino" />Feminino</label
+      >
+
+      <label for="paises">Pais: </label>
+      <select name="paise" id="pais">
+        <option value="">Seleccione un pais...</option>
+        <option value="espana">España</option>
+        <option value="mexico">Mexico</option>
+        <option value="argentina">Argentina</option>
+      </select>
+
+      <label for="comentario">Comentario: </label>
+      <textarea name="comentario" id="comentario" rows="4" cols="50">
+Escribe algo aquí</textarea
+      >
+
+      <fieldset>
+        <legend>Información de contacto</legend>
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email" />
+        <label for="telefono">Teléfono: </label>
+        <input type="tel" name="telefono" id="telefono" />
+      </fieldset>
+    </form>
+    <h3>Herramientas de diseño y validación de formularios</h3>
+    <ul>
+      <li>
+        JotForm: Una herramienta en línea que permite crear formularios HTML
+        personalizados sin necesidad de codificación, útil para entender la
+        estructura y el diseño de los formularios. (<a
+          href="https://www.jotform.com/es/"
+          >jotform</a
+        >)
+      </li>
+      <li>
+        The W3C Markup Validation Service: Un servicio gratuito que permite
+        comprobar la validez del marcado de tus formularios y páginas HTML,
+        asegurando que sigan los estándares web. (<a
+          href="https://validator.w3.org/"
+          >validator</a
+        >)
+      </li>
+    </ul>
+  </body>
+</html>
