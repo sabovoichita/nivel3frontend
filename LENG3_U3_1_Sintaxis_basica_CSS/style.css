@@ -1,0 +1,19 @@
+/* Regla 1: Selector de tipo que aplica a todos los elementos <p> */
+p {
+  color: red; /* Establece el color de texto de todos los párrafos a rojo. */
+}
+
+/* Regla 2: Selector de clase que aplica a elementos <p> con la clase 'destacado' */
+.destacado {
+  color: blue; /* Establece el color del texto de las párrafos destacados a azul */
+}
+
+/* Regla 3: Selector de ID que aplica al elementos <p> con el ID 'especial' */
+.destacado {
+  color: green; /* Establece el color del texto de las párrafos especial a verde */
+}
+
+.contenedor {
+  color: blue; /*Establece el color de texto de los elementos dentro del div a azul*/
+  font-size: 20px; /*Establece el tamaño de fuente de los elemetos dentro del div a 20px*/
+}

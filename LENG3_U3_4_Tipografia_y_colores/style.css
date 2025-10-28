@@ -1,0 +1,23 @@
+p {
+  font-family: "Helvetica Nueve", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  /* color: blue; */
+  /* color: #ff0000; */
+  /* color: #ffffff; */
+  /* color: #000000; */
+  /* color: #00ff00; */
+  /* color: #0000ff; */
+  /* color: rgba(255, 0, 0, 0.5); */
+  /* color: rgba(0, 0, 0); */
+  /* color: rgba(255, 255, 255); */
+  /* color: rgba(255, 0, 0); */
+  /* color: rgba(0, 255, 0); */
+  /* color: rgba(0, 0, 255); */
+  /* color: hsla(120, 100%, 50%, 0.3); */
+  /* color: hsla(0, 100%, 50%); */
+  /* color: hsla(120, 100%, 75%); */
+  /* color: hsla(240, 100%, 25%); */
+}
+body {
+  font-size: 16px;
+}
